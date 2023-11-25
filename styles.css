@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI";
   margin: 0;
   padding: 0;
   background-image: url('images/back.gif');
@@ -7,12 +7,10 @@ body {
   background-position: center;
 }
 
-.pic img {
+.ava img {
   width: 150px;
   height: 150px;
-  border-radius: 50%; 
   margin-top: -20px;
-  box-shadow: 0 0 30px #b301e9;
 }
 
 button {
@@ -29,7 +27,7 @@ button {
 }
 
 button:hover {
-  transform: scale(1.05);
+  transform: scale(1.07);
 }
 
 .window {
@@ -60,4 +58,39 @@ p {
 
 a {
   color: #fbfbfb;
+}
+
+.ds img {
+  width: 60pt;
+  height: auto;
+  margin-bottom: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.gh img {
+  width: auto;
+  height: 50pt;
+  margin-left: 5%;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.tg img {
+  width: auto;
+  height: 50pt;
+  margin-right: 5%;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.tg img:hover {
+  transform: scale(1.07);
+}
+
+.gh img:hover {
+  transform: scale(1.07);
+}
+
+.ds img:hover {
+  transform: scale(1.07);
 }
