@@ -1,5 +1,5 @@
-body {
-  font-family: "Segoe UI";
+html {
+  font-family: 'Lucida Console';
   margin: 0;
   padding: 0;
   background-image: url('images/back.gif');
@@ -11,23 +11,8 @@ body {
   width: 150px;
   height: 150px;
   margin-top: -20px;
-}
-
-button {
-  color: #fbfbfb; 
-  background-color: #000;
-  padding: 15px 15px;
-  border: none;
-  cursor: pointer;
-  border-radius: 20px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-  font-size: 24px;
-  transition: background 0.3s ease, transform 0.3s ease;
-  box-shadow: 0 0 10px #b301e9;
-}
-
-button:hover {
-  transform: scale(1.07);
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
 .window {
@@ -37,14 +22,14 @@ button:hover {
   transform: translate(-50%, -50%);
   background-color: #000; 
   padding: 20px;
-  border-radius: 40px;
+  border-radius: 70px;
   text-align: center;
-  box-shadow: 0 0 30px #b301e9;
+  box-shadow: 0 0 30px #cc00ff;
 }
 
 h1 {
-  color: #ffffff; 
-  text-shadow: 0 0 10px #b301e9;
+  color: #fff; 
+  text-shadow: 0 0 20px #fff;
   font-size: 36px;
   margin-top: -10px;
   margin-bottom: -20px;
@@ -54,32 +39,31 @@ p {
   color: #fff; 
   text-shadow: 0 0 10px #fbfbfb;
   font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 a {
-  color: #fbfbfb;
+  color: #fff;
 }
 
 .ds img {
-  width: 60pt;
+  width: 50pt;
   height: auto;
-  margin-bottom: auto;
-  margin-left: 5%;
-  margin-right: 5%;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .gh img {
   width: auto;
-  height: 50pt;
-  margin-left: 5%;
+  height: 40pt;
+  margin-left: 3%;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .tg img {
   width: auto;
-  height: 50pt;
-  margin-right: 5%;
+  height: 40pt;
+  margin-right: 3%;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
