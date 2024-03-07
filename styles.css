@@ -1,80 +1,80 @@
 html {
-  font-family: 'Lucida Console';
-  margin: 0;
-  padding: 0;
-  background-image: url('images/back.gif');
-  background-size: cover;
-  background-position: center;
+    font-family: 'lucida console';
+    margin: 0;
+    padding: 0;
+    background-image: url('images/back.gif');
+    background-size: cover;
+    background-position: center;
 }
 
 .ava img {
-  width: 150px;
-  height: 150px;
-  margin-top: -20px;
-  border-radius: 50%;
-  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    width: 150px;
+    height: 150px;
+    margin-top: -20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
 .window {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #000; 
-  padding: 20px;
-  border-radius: 70px;
-  text-align: center;
-  box-shadow: 0 0 30px #cc00ff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    padding: 20px;
+    border-radius: 100px;
+    text-align: center;
+    box-shadow: 0 0 30px #cc00ff;
 }
 
 h1 {
-  color: #fff; 
-  text-shadow: 0 0 20px #fff;
-  font-size: 36px;
-  margin-top: -10px;
-  margin-bottom: -20px;
+    color: #fff;
+    text-shadow: 0 0 20px #fff;
+    font-size: 36px;
+    margin-top: -10px;
+    margin-bottom: -20px;
 }
 
 p {
-  color: #fff; 
-  text-shadow: 0 0 10px #fbfbfb;
-  font-size: 18px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 0 0 10px #fbfbfb;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 a {
-  color: #fff;
+    color: #fff;
 }
 
 .ds img {
-  width: 50pt;
-  height: auto;
-  transition: background 0.3s ease, transform 0.3s ease;
+    width: 50pt;
+    height: auto;
+    transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .gh img {
-  width: auto;
-  height: 40pt;
-  margin-left: 3%;
-  transition: background 0.3s ease, transform 0.3s ease;
+    width: auto;
+    height: 40pt;
+    margin-left: 3%;
+    transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .tg img {
-  width: auto;
-  height: 40pt;
-  margin-right: 3%;
-  transition: background 0.3s ease, transform 0.3s ease;
+    width: auto;
+    height: 40pt;
+    margin-right: 3%;
+    transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .tg img:hover {
-  transform: scale(1.07);
+    transform: scale(1.07);
 }
 
 .gh img:hover {
-  transform: scale(1.07);
+    transform: scale(1.07);
 }
 
 .ds img:hover {
-  transform: scale(1.07);
+    transform: scale(1.07);
 }
